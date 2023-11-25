@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.todoapp__container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+h1 {
+  color: red;
+}
+
+.todo__data {
+  background: red;
+}
+.current__projects {
+  background: blue;
+}
