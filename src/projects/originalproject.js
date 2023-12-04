@@ -20,7 +20,7 @@ const appData = () => {
               <h2>Learn Js</h2>
             </div>
             <div>
-              <h2>+Add project</h2>
+              <button class="add-btn" id="project-btn">+Add project</button>
             </div>
           </article>
         </article>`;

@@ -1,5 +1,6 @@
 import "./index.css";
 import appData from "./projects/originalproject";
-import newProject from "./projects/newproject";
+import currentTask from "./Tasks/currentTask";
+import newTask from "./Tasks/newTask";
 appData();
-newProject();
+currentTask();
