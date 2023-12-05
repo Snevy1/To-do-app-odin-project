@@ -1,7 +1,7 @@
 const appData = () => {
-  let todoappContainer = document.querySelector(".todoapp__container");
+  let todoappData = document.querySelector(".todo__data");
 
-  todoappContainer.innerHTML += `<article class="todo__data">
+  todoappData.innerHTML = `
           <article>
             <h2>Home</h2>
           </article>
@@ -23,7 +23,7 @@ const appData = () => {
               <button class="add-btn" id="project-btn">+Add project</button>
             </div>
           </article>
-        </article>`;
+        `;
 };
 
 export default appData;

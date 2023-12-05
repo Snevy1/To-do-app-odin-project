@@ -1,4 +1,5 @@
-import newTask from "./newTask";
+import { controlTasks } from "./controlTasks";
+import { tasksData } from "./tasksData";
 
 function taskForm() {
   const form = () => {
@@ -22,7 +23,16 @@ function taskForm() {
       const description = document.getElementById("description").value;
       const priority = document.getElementById("priority").value;
       const dueDate = document.getElementById("dueDate").value;
-      newTask(title, description, priority, dueDate).Task();
+      tasksData.push({
+        Title: title,
+        Description: description,
+        dueDate: dueDate,
+        Priority: priority,
+      });
+
+      console.log(tasksData);
+      controlTasks();
+      /* newTask(title, description, priority, dueDate).Task(); */
     });
   };
 
